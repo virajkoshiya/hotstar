@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item  android:icon="@drawable/download"
+            android:id="@+id/ddownlod"
+            android:title="Downlod"
+            />
+
+        <item  android:icon="@drawable/watchlist"
+            android:id="@+id/watchlist"
+            android:title="watchlist"
+            />
+
+        <item  android:icon="@drawable/prize"
+            android:id="@+id/prize"
+            android:title="Prize"
+            />
+
+        <item  android:icon="@drawable/language"
+            android:id="@+id/language"
+            android:title="Languages"
+            />
+
+        <item  android:icon="@drawable/preferences"
+            android:id="@+id/prefrence"
+            android:title="Preferences"
+            />
+
+        <item  android:icon="@drawable/help"
+            android:id="@+id/help"
+            android:title="Help"
+            />
+
+
+    </group>
+
+</menu>
