@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".fragment_vertical_rec"
+    tools:context=".fragement.fragment_vertical_rec"
     android:id="@+id/f_lay_v_rec">
 
     <RelativeLayout

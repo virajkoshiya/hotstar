@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <group android:checkableBehavior="single">
+  <!--  <group android:checkableBehavior="single">
 
         <item  android:icon="@drawable/download"
             android:id="@+id/ddownlod"
-            android:title="Downlod"
-            />
+            android:iconTint="#000"
+            android:title="Download"
+            >
+        </item>
 
         <item  android:icon="@drawable/watchlist"
             android:id="@+id/watchlist"
@@ -33,7 +35,6 @@
             android:title="Help"
             />
 
-
-    </group>
+    </group>-->
 
 </menu>

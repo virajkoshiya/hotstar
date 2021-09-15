@@ -9,4 +9,9 @@
     <color name="white">#FFFFFFFF</color>
     <color name="blue">#0000FF</color>
     <color name="occeryellow">#cb9d06</color>
+    <color name="offwhite">#75736C</color>
+    <color name="read">#D11D1D</color>
+    <color name="yellow">#E6BD2D</color>
+    <color name="pink">#E1CB1EE9</color>
+    <color name="transpertant">#00000000</color>
 </resources>

@@ -5,7 +5,7 @@
     android:id="@+id/drawer_lay"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".activity.MainActivity"
     android:fitsSystemWindows="true"
     tools:openDrawer="start">
 
@@ -20,6 +20,7 @@
             android:layout_height="60dp"
             android:layout_alignParentTop="true"
             android:orientation="horizontal">
+
 
             <ImageView
                 android:id="@+id/menu"
@@ -91,31 +92,40 @@
             android:layout_above="@+id/bottomnavigation"
             android:layout_below="@+id/upperstrip">
 
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </androidx.viewpager.widget.ViewPager>
 
         </FrameLayout>
+
         <LinearLayout
-            android:gravity="center"
-            android:background="@color/black"
             android:id="@+id/bottomnavigation"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_alignParentBottom="true"
+            android:background="@color/black"
+            android:gravity="center"
             android:orientation="horizontal">
 
             <LinearLayout
                 android:id="@+id/home"
-                android:gravity="center"
-                android:layout_weight="1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
                 android:orientation="vertical">
 
                 <ImageView
+                    android:id="@+id/home_icon"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/home"></ImageView>
 
                 <TextView
+                    android:id="@+id/home_txt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Home">
@@ -126,18 +136,20 @@
 
             <LinearLayout
                 android:id="@+id/tv"
-                android:gravity="center"
-                android:layout_weight="1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
                 android:orientation="vertical">
 
                 <ImageView
+                    android:id="@+id/tv_icon"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/tv"></ImageView>
 
                 <TextView
+                    android:id="@+id/tv_txt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="TV">
@@ -145,15 +157,17 @@
                 </TextView>
 
             </LinearLayout>
+
             <LinearLayout
                 android:id="@+id/disney"
-                android:gravity="center"
-                android:layout_weight="1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
                 android:orientation="vertical">
 
                 <TextView
+                    android:id="@+id/disney_txt"
                     android:layout_width="wrap_content"
                     android:layout_height="35dp"
                     android:text="Disney +"
@@ -163,20 +177,23 @@
 
 
             </LinearLayout>
+
             <LinearLayout
                 android:id="@+id/movie"
-                android:gravity="center"
-                android:layout_weight="1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
                 android:orientation="vertical">
 
                 <ImageView
+                    android:id="@+id/movie_icon"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/movie"></ImageView>
 
                 <TextView
+                    android:id="@+id/movie_txt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Movies">
@@ -184,20 +201,23 @@
                 </TextView>
 
             </LinearLayout>
+
             <LinearLayout
                 android:id="@+id/sport"
-                android:gravity="center"
-                android:layout_weight="1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
                 android:orientation="vertical">
 
                 <ImageView
+                    android:id="@+id/sports_icon"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/sports"></ImageView>
 
                 <TextView
+                    android:id="@+id/sports_txt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Sports">
@@ -205,7 +225,6 @@
                 </TextView>
 
             </LinearLayout>
-
 
 
         </LinearLayout>
