@@ -29,29 +29,31 @@
     </TextView>
 
     <LinearLayout
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="50dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <LinearLayout
+            android:gravity="left"
             android:id="@+id/lin_downlod"
             android:layout_marginTop="15dp"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="50dp"
             android:orientation="horizontal">
 
             <ImageView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:src="@drawable/download"
                 android:layout_marginLeft="20dp">
 
             </ImageView>
 
             <TextView
+                android:gravity="center"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_marginLeft="10dp"
                 android:text="Download"
                 android:textSize="15sp">
@@ -60,23 +62,25 @@
         </LinearLayout>
 
         <LinearLayout
+            android:gravity="left"
             android:id="@+id/lin_watchlist"
             android:layout_marginTop="30dp"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="50dp"
             android:orientation="horizontal">
 
             <ImageView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:src="@drawable/watchlist"
                 android:layout_marginLeft="20dp">
 
             </ImageView>
 
             <TextView
+                android:gravity="center"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_marginLeft="10dp"
                 android:text="Watchlist"
                 android:textSize="15sp">
@@ -85,23 +89,25 @@
         </LinearLayout>
 
         <LinearLayout
+            android:gravity="left"
             android:id="@+id/lin_prise"
             android:layout_marginTop="30dp"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="50dp"
             android:orientation="horizontal">
 
             <ImageView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:src="@drawable/prize"
                 android:layout_marginLeft="20dp">
 
             </ImageView>
 
             <TextView
+                android:gravity="center"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_marginLeft="10dp"
                 android:text="Prise"
                 android:textSize="15sp">
@@ -110,23 +116,25 @@
         </LinearLayout>
 
         <LinearLayout
+            android:gravity="left"
             android:id="@+id/lin_language"
             android:layout_marginTop="30dp"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="50dp"
             android:orientation="horizontal">
 
             <ImageView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:src="@drawable/language"
                 android:layout_marginLeft="20dp">
 
             </ImageView>
 
             <TextView
+                android:gravity="center"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_marginLeft="10dp"
                 android:text="Language"
                 android:textSize="15sp">
@@ -135,23 +143,25 @@
         </LinearLayout>
 
         <LinearLayout
+            android:gravity="left"
             android:id="@+id/lin_preferance"
             android:layout_marginTop="30dp"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="50dp"
             android:orientation="horizontal">
 
             <ImageView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:src="@drawable/preferences"
                 android:layout_marginLeft="20dp">
 
             </ImageView>
 
             <TextView
+                android:gravity="center"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_marginLeft="10dp"
                 android:text="Preafreances"
                 android:textSize="15sp">
@@ -160,23 +170,26 @@
         </LinearLayout>
 
         <LinearLayout
+
+            android:gravity="left"
             android:id="@+id/lin_help"
             android:layout_marginTop="30dp"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="50dp"
             android:orientation="horizontal">
 
             <ImageView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:src="@drawable/help"
                 android:layout_marginLeft="20dp">
 
             </ImageView>
 
             <TextView
+                android:gravity="center"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_marginLeft="10dp"
                 android:text="Help"
                 android:textSize="15sp">

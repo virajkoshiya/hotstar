@@ -8,7 +8,9 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 import androidx.viewpager.widget.ViewPager;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -193,6 +195,10 @@ public class MainActivity extends AppCompatActivity {
                 //  GetFragement(new full_grid_horizontal());
 
                 viewPager.setCurrentItem(4);
+           //   int sport= viewPager.getCurrentItem();
+//              if(sport==4){
+//                  sportsIcon.setColorFilter(getResources().getColor(R.color.white));
+//              }
 
             }
         });
@@ -230,8 +236,72 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+            @Override
+            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+
+            }
+
+            @Override
+            public void onPageSelected(int position) {
+
+            }
+
+            @Override
+            public void onPageScrollStateChanged(int state) {
+                int num= viewPager.getCurrentItem();
+                Log.e("numberrrrrrr", "onCreate: "+ num);
+                if(num==4){
+                    disneyTxt.setTextColor(getResources().getColor(R.color.offwhite));
+                    homeIcon.clearColorFilter();
+                    tvIcon.clearColorFilter();
+                    movieIcon.clearColorFilter();
+                    sportsIcon.clearColorFilter();
+                    serch.setVisibility(View.VISIBLE);
+                    sportsIcon.setColorFilter(getResources().getColor(R.color.white));
+                }
+                else if (num==3){
+                    disneyTxt.setTextColor(getResources().getColor(R.color.offwhite));
+                    homeIcon.clearColorFilter();
+                    tvIcon.clearColorFilter();
+                    movieIcon.clearColorFilter();
+                    sportsIcon.clearColorFilter();
+                    serch.setVisibility(View.VISIBLE);
+                    movieIcon.setColorFilter(getResources().getColor(R.color.white));
+                }else if (num==2){
+                    disneyTxt.setTextColor(getResources().getColor(R.color.offwhite));
+                    homeIcon.clearColorFilter();
+                    tvIcon.clearColorFilter();
+                    movieIcon.clearColorFilter();
+                    sportsIcon.clearColorFilter();
+                    serch.setVisibility(View.VISIBLE);
+                    disneyTxt.setTextColor(getResources().getColor(R.color.white));
+                }else if (num==1){
+
+                    disneyTxt.setTextColor(getResources().getColor(R.color.offwhite));
+                    homeIcon.clearColorFilter();
+                    tvIcon.clearColorFilter();
+                    movieIcon.clearColorFilter();
+                    sportsIcon.clearColorFilter();
+                    serch.setVisibility(View.VISIBLE);
+                    tvIcon.setColorFilter(getResources().getColor(R.color.white));
+                }else if (num==0){
+                    disneyTxt.setTextColor(getResources().getColor(R.color.offwhite));
+                    homeIcon.clearColorFilter();
+                    tvIcon.clearColorFilter();
+                    movieIcon.clearColorFilter();
+                    sportsIcon.clearColorFilter();
+                    serch.setVisibility(View.VISIBLE);
+                    homeIcon.setColorFilter(getResources().getColor(R.color.white));
+                }
+
+
+            }
+        });
+
 
         viewPagerAdapter = new ViewPagerAdapter(getSupportFragmentManager());
+
         viewPagerAdapter.add(new fragment_vertical_rec());
         viewPagerAdapter.add(new f_v());
         viewPagerAdapter.add(new f_grid());
@@ -259,7 +329,11 @@ public class MainActivity extends AppCompatActivity {
                 ldownlod.setBackgroundColor(getResources().getColor(R.color.transpertant));
                 linWatchlist.setBackgroundColor(getResources().getColor(R.color.transpertant));
                 ldownlod.setBackgroundColor(getResources().getColor(R.color.offwhite));
-               // Toast.makeText(MainActivity.this, "SKY", Toast.LENGTH_SHORT).show();
+
+                Intent intent = new Intent(MainActivity.this,downlods_img.class);
+                startActivity(intent);
+
+                Toast.makeText(MainActivity.this, "Downloads", Toast.LENGTH_SHORT).show();
             }
         });
         linWatchlist.setOnClickListener(new View.OnClickListener() {

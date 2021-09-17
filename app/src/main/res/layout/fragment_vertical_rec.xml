@@ -11,9 +11,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-
-
-
         <androidx.core.widget.NestedScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -128,6 +125,7 @@
                             app:cardCornerRadius="19dp">
 
                             <ImageView
+                                android:id="@+id/click_story"
                                 android:layout_width="405dp"
                                 android:layout_height="wrap_content"
                                 android:scaleType="centerCrop"
@@ -144,6 +142,7 @@
                             app:cardCornerRadius="10dp">
 
                             <ImageView
+                                android:id="@+id/click_bhuj"
                                 android:layout_width="405dp"
                                 android:layout_height="wrap_content"
                                 android:scaleType="centerCrop"
@@ -160,6 +159,7 @@
                             app:cardCornerRadius="10dp">
 
                             <ImageView
+                                android:id="@+id/click_empire"
                                 android:layout_width="405dp"
                                 android:layout_height="wrap_content"
                                 android:scaleType="centerCrop"

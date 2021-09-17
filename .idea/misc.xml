@@ -18,6 +18,9 @@
         <entry key="..\:/hotstarcopy/hotstar/app/src/main/res/drawable/sports.xml" value="0.18518518518518517" />
         <entry key="..\:/hotstarcopy/hotstar/app/src/main/res/drawable/tv.xml" value="0.18518518518518517" />
         <entry key="..\:/hotstarcopy/hotstar/app/src/main/res/drawable/watchlist.xml" value="0.18518518518518517" />
+        <entry key="..\:/hotstarcopy/hotstar/app/src/main/res/layout/activity_downlod_img_view.xml" value="0.17083333333333334" />
+        <entry key="..\:/hotstarcopy/hotstar/app/src/main/res/layout/activity_downlods_img.xml" value="0.15763546798029557" />
+        <entry key="..\:/hotstarcopy/hotstar/app/src/main/res/layout/activity_image_view.xml" value="0.16" />
         <entry key="..\:/hotstarcopy/hotstar/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/hotstarcopy/hotstar/app/src/main/res/layout/fragment_f_grid.xml" value="0.16979166666666667" />
         <entry key="..\:/hotstarcopy/hotstar/app/src/main/res/layout/fragment_f_h.xml" value="0.16979166666666667" />
@@ -26,8 +29,9 @@
         <entry key="..\:/hotstarcopy/hotstar/app/src/main/res/layout/fragment_full_grid_horizontal.xml" value="0.20416666666666666" />
         <entry key="..\:/hotstarcopy/hotstar/app/src/main/res/layout/fragment_grid_and_vertical.xml" value="0.15416666666666667" />
         <entry key="..\:/hotstarcopy/hotstar/app/src/main/res/layout/fragment_vertical_rec.xml" value="0.18" />
-        <entry key="..\:/hotstarcopy/hotstar/app/src/main/res/layout/header_drawer.xml" value="0.18854166666666666" />
+        <entry key="..\:/hotstarcopy/hotstar/app/src/main/res/layout/header_drawer.xml" value="0.2" />
         <entry key="..\:/hotstarcopy/hotstar/app/src/main/res/layout/item_big_vertical.xml" value="0.18854166666666666" />
+        <entry key="..\:/hotstarcopy/hotstar/app/src/main/res/layout/item_img_dnlod.xml" value="0.1625" />
         <entry key="..\:/hotstarcopy/hotstar/app/src/main/res/layout/item_small_vertical.xml" value="0.18" />
         <entry key="..\:/hotstarcopy/hotstar/app/src/main/res/layout/item_staggerd_layout.xml" value="0.20416666666666666" />
         <entry key="..\:/hotstarcopy/hotstar/app/src/main/res/menu-v26/drawer_menu.xml" value="0.15885416666666666" />
